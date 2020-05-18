@@ -27,6 +27,7 @@ public class TestController {
     @GetMapping("/query/{userId}")
     public User queryById(@PathVariable int userId) {
         log.info("first commit");
+        log.info("second commit ...");
         return testService.queryById(userId);
     }
 }
