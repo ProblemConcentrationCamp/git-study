@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitStudyApplication {
 
     public static void main(String[] args) {
+        log.info("okk");
         SpringApplication.run(GitStudyApplication.class, args);
     }
 
